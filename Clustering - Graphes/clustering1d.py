@@ -1,6 +1,9 @@
 import numba
-
 import numpy as np
+import matplotlib.pyplot as plt
+
+from sklearn.cluster import k_means
+from sknetwork.clustering import modularity
 
 
 @numba.njit
